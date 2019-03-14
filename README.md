@@ -20,3 +20,25 @@ export default makeExecutableSchema({
 npm i
 npm start
 ```
+<br />
+console query
+```
+query basic {
+  newsLayout(id: "0") {
+    name
+  	sections {
+      name
+      type
+      articles {
+        title
+        content
+        articleImages {
+          imageUrl
+        }
+      }
+    }
+	}
+}
+```
+<br />
+<img src="public/images/module-schema.png">
