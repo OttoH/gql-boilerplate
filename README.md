@@ -7,6 +7,8 @@ Use schema.js as an index or entry point that combines type-defs and resolvers i
 By doing this, we can separate schemas from every services.
 
 ```
+import { newsLayoutTypes, newsLayoutResolvers } from './newsLayouts'
+
 export default makeExecutableSchema({
   typeDefs: [newsLayoutTypes],
   resolvers: mergeDeepLeft({}, newsLayoutResolvers) // merge for DEMO
