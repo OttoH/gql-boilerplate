@@ -1,7 +1,7 @@
 {
-  "name": "gcp-fe-core",
+  "name": "gql-module-boilerplate",
   "version": "0.0.1",
-  "description": "LINE content platform integrations.",
+  "description": "gql boilerplate for seaprated schemas",
   "main": "server.js",
   "scripts": {
     "start": "nodemon ./server.js --exec babel-node -e js",
@@ -11,7 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "GCP-FE",
     "graphql",
     "typescript"
   ],
