@@ -47,12 +47,8 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js,vue}": [
+    "*.{ts, js}": [
       "npm run eslint-fix:commit",
-      "git add"
-    ],
-    "*.{css,scss,vue}": [
-      "npm run stylelint-fix:commit",
       "git add"
     ]
   }
