@@ -19,10 +19,11 @@ export default makeExecutableSchema({
 ```
 npm i
 npm start
-```
-<br />
+
+
+---
 console query
-```
+---
 query basic {
   newsLayout(id: "0") {
     name
@@ -37,7 +38,7 @@ query basic {
         }
       }
     }
-	}
+  }
 }
 ```
 <br />
